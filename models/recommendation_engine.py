@@ -95,7 +95,7 @@ def run_pipeline(
     # Step 3: Explainable Output
     text = ""
     if return_text:
-        need_explanation = explain_need(cog)
+        need_explanation = "\n".join(generate_need_explanation(cog))
         rec_explanation  = format_recommendations(
             recs,
             support_type  = cog.support_type,
