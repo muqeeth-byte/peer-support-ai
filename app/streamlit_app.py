@@ -75,7 +75,7 @@ with st.sidebar:
     top_k = st.selectbox("Recommendations to show", [1,2,3,5], index=2)
 
 # ── Header ─────────────────────────────────────────────────────────────────────
-st.markdown('<div class="main-header">🤝 PeerMatch AI</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-header"> PeerMatch AI</div>', unsafe_allow_html=True)
 st.markdown('<div class="sub-header">Cognitive Analytics Framework for Intelligent Peer Matching</div>',
             unsafe_allow_html=True)
 
