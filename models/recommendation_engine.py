@@ -18,7 +18,7 @@ from utils.feature_engineering import (
     engagement_delta, skill_vector, availability_vector,
     domain_index, experience_score, ALL_SKILLS, ALL_SLOTS
 )
-from models.cognitive_scorer import compute_cognitive_scores, explain_need
+from models.cognitive_scorer import compute_cognitive_scores, generate_need_explanation
 from models.peer_matcher import recommend_peers, format_recommendations
 
 
