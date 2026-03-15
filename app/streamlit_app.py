@@ -9,7 +9,7 @@ sys.path.insert(0, BASE_DIR)
 
 import streamlit as st
 
-st.set_page_config(page_title="PeerMatch AI", page_icon="🤝", layout="wide",
+st.set_page_config(page_title="PeerMatch AI", page_icon="", layout="wide",
                    initial_sidebar_state="expanded")
 
 st.markdown("""
